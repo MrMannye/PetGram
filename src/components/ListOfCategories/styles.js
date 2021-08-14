@@ -8,6 +8,21 @@ export const List = styled.ul`
         display: none;
     }
     margin-bottom: 2rem;
+    &.fixed{
+        background-color: white;
+        border-radius: 60px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        left:0;
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 5px; 
+        position: fixed;
+        right: 0;
+        z-index: 1;
+        top: -1px;
+        margin-top: 20px;
+        transform: scale(.7);
+    }
 `;
 
 export const Item = styled.li`
