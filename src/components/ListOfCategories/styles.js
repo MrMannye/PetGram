@@ -7,6 +7,7 @@ export const List = styled.ul`
     &::-webkit-scrollbar {
         display: none;
     }
+    margin-bottom: 2rem;
 `;
 
 export const Item = styled.li`
